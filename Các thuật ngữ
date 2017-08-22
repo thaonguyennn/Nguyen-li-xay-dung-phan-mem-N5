@@ -1,0 +1,13 @@
+Concurrent programming (lập trình tương thanh) : là một khái niệm (cũng có thể hiểu là kỹ thuật) lập trình chia nhỏ công việc ban đầu thành những nhiệm vụ (task) nhỏ hơn, mỗi nhiệm vụ chạy trên một tiến trình (process, hay thread), và chúng có thể chạy đồng thời (song song - parallel) trên nhiều CPU. Nói chung, kỹ thuật này liên quan đến những cấu trúc thực thi trên bất kỳ platform nào của Java. 
+Lập Trình Đa Luồng (Multithreading)
+- Thread là một tiến trình đơn vị xử lý của máy tính có thể thực hiện một công việc riêng biệt. Trong Java các luồng được quản lý bởi máy ảo Java (JVM). 
+
+- Multi-thread là khái niệm cho nhiều tiến trình chạy đồng thời. Một ứng dụng Java ngoài luồng chính có thể có các luồng khác thực thi đồng thời làm ứng dụng chạy nhanh và hiệu quả hơn.
+VD: Trong một game đánh nhau có 2 người chơi thì mỗi người chơi sẽ do 1 luồng quản lý. Các hoạt cảnh game có thể do một luồng khác quản lý. Làm cho game trở nên sinh động.
+
+Socket là gì?
+Socket là một model của Java, dùng để tạo ra các giao tiếp giữa các máy tính với nhau. Nó là điểm giao  tiếp (endpoint) khi thực hiện quá trình liên kết truyền nhận dữ liệu .
+Socket có thể có 2 luồng: một luồng dữ liệu vào (input stream), và 1 luồng dữ liệu ra (output stream). Máy này gửi dữ liệu cho máy khác thông qua đường mạng, tạo một output stream “đính” với cái socket, và máy tính nhận thì cần input stream với socket của nó để nhận dữ liệu.
+Plugin (điện toán)
+Trong kỹ thuật máy tính, plugin (tiếng Anh: còn gọi là add-in, addin, add-on, addon, hay extension), trình cắm, hay phần bổ trợ là một bộ phần mềm hỗ trợ mà thêm những tính năng cụ thể cho một phần mềm ứng dụng lớn hơn. Nếu được hỗ trợ, plug-in cho phép tùy biến các chức năng của một ứng dụng. Ví dụ, plug-in thường được sử dụng trong các trình duyệt web để chơi video, quét virus, và hiển thị các loại tập tin mới. Ví dụ hai plug-in được biết đến rộng rãi bao gồm Adobe Flash Player và QuickTime. Plugin không tự hoạt động nếu phần mềm ứng dụng chính không chạy.
+
